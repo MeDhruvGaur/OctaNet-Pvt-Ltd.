@@ -1,0 +1,381 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 2px;
+    padding: 0;
+    /* background-color:  rgb(217, 244, 245); */
+}
+.wrapper{
+    padding-left: 0;
+    margin-left: 0;
+    height: 50px;
+    width: auto;
+    background-color: rgb(109, 133, 175);
+    background-image: linear-gradient(rgb(109,133, 175), rgb(255, 255, 255));
+
+}
+/* Navigation bar Options */
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display: flex;
+    gap:50px;
+    float:right;
+}
+/* Navigation Bar */
+.navbar{
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+    width: auto;
+    background-color: rgb(217, 244, 245);
+    display: flex;
+    float:center;
+}
+.logo-container{
+    padding: 14px 16px;
+    margin-top: 2px;
+    margin-left: 200px;
+    float:center;
+    display: flex;
+    color:black;
+    text-align:right;
+    font-size: 20px;
+    height: 5px;
+    width: auto;
+}
+/* Social Media logos */
+.social-media{
+    Padding: 6px 6px;
+    margin: 4px;
+    margin-left: 50px;
+    width:auto;
+    display:flex;
+    position: relative;
+    gap:40px;
+    z-index: 1;
+
+}
+/* Hover on social media Logo */
+
+#div1:hover,
+#div2:hover,
+#div3:hover,
+#div4:hover{
+    background-color: black;
+    opacity: 30%;
+    display: block;
+    visibility: visible;
+    border-radius:4px;
+    top:-2;
+    bottom:-2;
+    cursor:pointer;
+    transition-duration:0.2s;
+    justify-content: top;
+    z-index: -1;
+    
+}
+/* Image Collection */
+.image.container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+/* Slides */
+
+.mySlides{
+    display: flex;
+
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 0px;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Next Button*/
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Arrow Hover */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Number like--> 1/3,etc.  */
+.number {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  margin-top: 110px;
+  color: white;
+}
+
+/* Dots */
+.dot {
+  margin-block-end: 2px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 20 22px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display:inline-block;
+  transition: background-color 0.6s ease;
+}
+/* Hover in Dots */
+.active, .dot:hover{
+    background-color: #464040;
+}
+
+/* Your Dream ! Our Destiny */
+.elemenator-widget1{
+    Padding:8px;
+    margin-left: 4px;
+    margin-top: 100px;
+    position: absolute;
+    color: white;
+    width:500px;
+    font-size: 40px;
+  }
+  /* Octanet */
+  .elementor-widget{
+    Padding:60px;
+    margin-top: 400px;
+    position: absolute;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 400px;
+  }
+/* Your Dream ! Our Destiny */
+
+  .element1{
+     Padding:8px;
+    margin-left: 4px;
+    margin-top: 100px;
+    position: absolute;
+    color: whitesmoke;
+    width:500px;
+    font-size: 40px;
+
+  }
+  /* Octanet */
+  .element2{
+     Padding:60px;
+    margin-top: 400px;
+    position: absolute;
+    color: yellow;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 400px;
+
+  }
+/* Your Dream ! Our Destiny */
+
+  .element3{
+    Padding:8px;
+    margin-left: 4px;
+    margin-top: 100px;
+    position: absolute;
+    color: Yellow;
+    width:500px;
+    font-size: 40px;
+  }
+  /* Octanet */
+  .element4{
+ Padding:60px;
+    margin-top: 400px;
+    position: absolute;
+    color:Yellow;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 400px;
+
+  }
+  .button{
+    margin-top: 450px;
+    padding: 20px;
+      height:40px;
+    width:20px;   
+    position: absolute;
+  }
+  .Services{
+    margin-top: 580px;
+    margin-left: 120px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    position:absolute;
+    z-index:1;
+}
+
+  .Services{
+    background-color: red;
+    padding: 0.8rem 2.3rem;
+    color: white;
+    font-size: 18px;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    position: absolute;
+    z-index:1;
+}
+.Services::before{
+    content: "";
+    background-color: #1f1f1f;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition:all 0.8s;
+    z-index: -1;
+}
+
+.Services:hover::before{
+    transform:scaleX(1);
+}
+.button:hover::before{
+    transform:scaleX(1);
+}
+
+.copy{
+  margin-left: 560px;
+  padding-left: 90px;
+}
+
+
+.wrapper2{
+    margin : 15px;
+    padding : 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+    height: 750px;
+    width: 100px;
+}
+.bg{
+    background-color:rgb(182, 245, 249);
+    width: 100%;
+    height:1000px;
+}
+.column{
+    display:flex;
+    float:left;
+    margin: 10px;
+    margin-left: 70px;
+    gap: 380px;
+}
+.column2{
+    display:flex;
+    float: left;
+    margin: 5px;
+    margin-left: 70px;
+    gap: 380px;
+}
+.text-head{
+    margin-left: 350px;
+    height:50px;
+    width:900px;
+    font-size: 30px;
+}
+.head1{
+    margin-left: 40px;
+    padding: 5px;
+    height: 35px;
+     border-style: solid;
+    border-width: 1px;
+    width: 250px;
+    font-weight: 50px;
+    font-size: 27px;
+    background-color: yellow;
+}
+.head1:hover{
+    cursor: pointer;
+    background-color: darkgoldenrod;
+}
+.para1{
+    margin-left: 40px;
+    width: 300px;
+    font-weight: 20px;
+}
+
+.border1{
+    border-style: solid;
+    border-width: 2px;
+}
+
+/* Contact */
+
+.contact-container {
+  margin:940px;
+  margin-left: 90px;
+  height: 870px;
+  width: 80%;
+  border-radius: 30px;
+  position: absolute;
+  background-color: #8739e6;
+  padding: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 3px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #278b61;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.copynav2{
+  margin: 1500px;
+  height: 60px;
+  width: 100%;
+  background-color: rgb(252, 0, 0);
+}
+.footnav{
+  margin-top: 1800px;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+ 
+}
+#navtex{
+  padding: 10px;
+  margin-left: 0px;
+  padding-left: 550px;
+  font-size: 18px;
+  font-weight: 20px;
+  color: black;
+
+}
